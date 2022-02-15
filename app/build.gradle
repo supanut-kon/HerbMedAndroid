@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.2"
 
     defaultConfig {
         applicationId "com.cnmi.herbmed_android"
@@ -36,6 +35,7 @@ dependencies {
     implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
     implementation 'com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1'
     implementation 'com.github.pratikbutani:MultiSelectSpinner:f47c0dadea'
+    implementation('com.ts:auth-control-sdk:5.1.1@aar') { transitive=true }
 
 
 
